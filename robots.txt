@@ -1,4 +1,4 @@
 # robotstxt.org/
 
 User-agent: *
-Sitemap: https://breaktimetv.github.io/sitemap.xml
+Sitemap: https://PatriaTV.github.io/sitemap.xml

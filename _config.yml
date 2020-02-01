@@ -1,23 +1,23 @@
 # Site Settings
-title: BreakTimeTV
+title: Patria TV
 email: breaktime3030@gmail.com
 description: Sitio Web para ver peliculas y series online gratis.
 baseurl: ""
-url: https://breaktimetv.github.io
+url: https://patriatv.github.io/
 # Google Analytics
 google_analytics: UA-148084448-1
 
 # User Settings
-username: BreakTimeTv
+username: PatriaTV
 user_description: Página dedicada a videos sin publicidad.
-disqus_username: BreakTimeTV
+disqus_username: PatriaTV
 
 # Social Media
 # Remove the item if you don't need it
 github_username: 
-facebook_username: breaktimetv
+facebook_username: PatriaTV
 twitter_username: 
-instagram_username: _breaktimetv
+instagram_username: PatriaTV
 linkedin_username: 
 medium_username: 
 
