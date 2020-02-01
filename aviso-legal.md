@@ -13,7 +13,6 @@ legal: "si"
         <div class="col-md-10 col-xs-12 col-lg-10">
                 <div  align="center">
                   <img itemprop="image" style="width: 110px;" class="img-rounded" src="https://res.cloudinary.com/imbriitneysam/image/upload/v1540614135/logoBr-min.jpg" alt="PatriaTV - Aviso Legal">
-                   <img itemprop="image" style="width: 110px;" class="img-rounded" src=" https://res.cloudinary.com/imbriitneysam/image/upload/v1540771100/DMCA-min.jpg" alt="DMCA - PatriaTV">
                 </div>
                 <div class="col-md-12 col-xs-12 col-lg-12" align="center">
                     <h2 class="top_parrafo "> Aviso Legal </h2>
