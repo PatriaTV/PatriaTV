@@ -1,0 +1,28 @@
+<header class="bar-header" id="header-fixed-2" >
+
+   
+    
+    <a id="search" class="dosearch">
+            <svg class="icon-search"><use xlink:href="#icon-search"></use></svg>
+        </a>
+
+   
+    
+        <a id="descargar_app" style="display:none;float:right;cursor: pointer;margin: 0 5px 0 0;" href="https://play.app.goo.gl/?link=https://play.google.com/store/apps/details?id=app.breaktimetv">
+            <img alt="Descargar app breaktimetv" style="width: 100px;padding-top: 5px;" src="{{site.baseurl}}/descargar.png">
+         </a>
+
+
+        <div id="logo-break"  style="text-align:left">
+            <a  onclick="mostrar()" href="{{ site.baseurl }}/">
+               <img alt="BreakTimeTv" style="width: 120px;padding-bottom: 5px;padding-left: 5px;" src="{{site.baseurl}}/break-min.png">
+            </a>
+        </div>
+
+
+    
+</header>
+
+<div id="mask" class="overlay"></div>
+{% include menu.html %}
+{% include search.html %}

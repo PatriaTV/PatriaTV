@@ -1,0 +1,60 @@
+---
+layout: main3
+permalink: /netflix
+title: "Peliculas y series de Netflix"
+full: "si"
+---
+
+
+<main class="home" id="post" style="padding-top: 60px;"  role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
+     <div cold-md="12" align="center">
+        <h2 class="top_h3"> Peliculas y Series de Netflix </h2>
+    </div>
+    <div id="grid" class="row flex-grid">
+            {% assign post_news = site.posts | where:"netflix","si" %}
+                {% for post in post_news %}
+                    <article  class="box-item col-xs-4 col-sm-3 col-md-2 col-lg-1" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+                                <div class="box">
+                                <div class="box-body">
+                                    {% if post.image_carousel %}
+                                        <div class="cover">
+                                            <a onclick="mostrar()" href="{{ post.url | prepend: site.baseurl }}">
+                                            <img src="https://res.cloudinary.com/imbriitneysam/image/upload/v1537239672/placeholder-min.png" data-url="{{ post.image_carousel }}" class="preload">
+                                            </a>
+                                            {% if post.category == 'series' %}
+                                                <div class="series"> Serie </div>
+                                                {% else %}
+                                                <div class="peliculas"> Pelicula </div>
+                                                {% endif %}
+                                            {% if post.idioma == 'Latino' %}
+                                                <div class="latino" title="Audio Latino"></div>
+                                        {% else %}
+                                                {% if post.idioma == 'Castellano' %}
+                                                <div class="castellano" title="Audio Castellano"></div>
+                                                {% else %}
+                                                <div class="subtitulado" title="Audio Subtitulado"></div>
+                                                {% endif %}
+										{% endif %}
+                                            <div class="titulo"> {{ post.calidad }} </div>
+                                        </div>
+                                    {% endif %}
+                                    <div class="box-info">
+                                        <div class="w3l-movie-text">
+                                            <h6>
+                                                <a onclick="mostrar()" class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+                                                        {{ post.title }}
+                                                </a>
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                </article>
+                {%endfor%}
+         </div>
+
+
+
+
+
+</main>

@@ -1,0 +1,1 @@
+var reproductor = $('.player').mb_YTPlayer(); $(window).scroll(function(){ if($(this).scrollTop() > 300){ reproductor.YTPPause();}else{  if(reproductor.getPlayerState() == 2){reproductor.YTPPause();}}});
