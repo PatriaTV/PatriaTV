@@ -1,19 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <title>Disney+</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-  </body>
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Disney Plus</title>
+   <link rel="stylesheet" href="css/style.css">
+   <script src="https://kit.fontawesome.com/61258c838c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div class="flex flex-col lg:flex-row flex-shrink-0 bg-gray-900 text-white h-screen overflow-hidden">
+      <div class="lg:w-24 w-full flex justify-center items-center overflow-hidden">
+         <nav class="flex lg:flex-col flex-row items-center w-full justify-between">
+            <a href="#" class="p-4 text-gray-500 hover:text-white">
+               <i class="fas fa-search"></i>
+            </a>
+            <a href="#" class="p-4 text-gray-500 hover:text-white">
+               <i class="fas fa-home"></i>
+            </a>
+            <a href="#" class="p-4 text-gray-500 hover:text-white">
+               <i class="fas fa-plus"></i>
+            </a>
+            <a href="#" class="p-4 text-gray-500 hover:text-white">
+               <i class="fas fa-ticket-alt"></i>
+            </a>
+            <a href="#" class="p-4 text-gray-500 hover:text-white">
+               <i class="fas fa-tv"></i>
+            </a>
+            <a href="#" class="p-4 text-gray-500 hover:text-white">
+               <i class="fas fa-star"></i>
+            </a>
+            <a href="#" class="p-4 text-gray-500 hover:text-white">
+               <i class="fas fa-cog"></i>
+            </a>
+         </nav>
+      </div>
+      <div class="flex-1 overflow-y-auto">
+         <div class="px-4">
+            <div class="my-8">
+               <div class="mb-12">
+                  <img src="img/mandalorian.jpg" alt="" class="rounded w-full">
+               </div>
+               <div class="flex md:flex-row flex-col items-center mb-12 -mx-4">
+                  <div class="md:w-1/5 w-full px-4 mb-4 md:mb-0">
+                     <a href="#" class="bg-gray-800 h-24 lg:h-32 flex justify-center items-center rounded-lg hover:bg-gray-900 border border-gray-700 shadow-2xl p-4">
+                        <img src="img/disney-logo.svg" alt="">
+                     </a>
+                  </div>
+                  <div class="md:w-1/5 w-full px-4 mb-4 md:mb-0">
+                     <a href="#" class="bg-gray-800 h-24 lg:h-32 flex justify-center items-center rounded-lg hover:bg-gray-900 border border-gray-700 shadow-2xl p-4">
+                        <img src="img/pixar.svg" alt="">
+                     </a>
+                  </div>
+                  <div class="md:w-1/5 w-full px-4 mb-4 md:mb-0">
+                     <a href="#" class="bg-gray-800 h-24 lg:h-32 flex justify-center items-center rounded-lg hover:bg-gray-900 border border-gray-700 shadow-2xl p-4">
+                        <img src="img/marvel.svg" alt="">
+                     </a>
+                  </div>
+                  <div class="md:w-1/5 w-full px-4 mb-4 md:mb-0">
+                     <a href="#" class="bg-gray-800 h-24 lg:h-32 flex justify-center items-center rounded-lg hover:bg-gray-900 border border-gray-700 shadow-2xl p-4">
+                        <img src="img/star-wars.svg" alt="">
+                     </a>
+                  </div>
+                  <div class="md:w-1/5 w-full px-4 mb-4 md:mb-0">
+                     <a href="#" class="bg-gray-800 h-24 lg:h-32 flex justify-center items-center rounded-lg hover:bg-gray-900 border border-gray-700 shadow-2xl p-4">
+                        <img src="img/national-geoprahic.svg" alt="">
+                     </a>
+                  </div>
+               </div>
+               <div class=" mb-12">
+                  <h2 class="text-gray-500 mb-2">Recommended For You</h2>
+                  <div class="flex items-center">
+                     <div class="mr-6 shadow-2xl w-2/4 lg:w-2/12">
+                        <a href="#">
+                           <img src="img/black_panther.jpg" alt="" class="rounded h-32 w-full object-cover">
+                        </a>
+                     </div>
+                     <div class="mr-6 shadow-2xl w-2/4 lg:w-2/12">
+                        <a href="#">
+                           <img src="img/cinderella.jpg" alt="" class="rounded h-32 w-full object-cover">
+                        </a>
+                     </div>
+                     <div class="mr-6 shadow-2xl w-2/4 lg:w-2/12 hidden md:block">
+                        <a href="#">
+                           <img src="img/darth-vader.jpg" alt="" class="rounded h-32 w-full object-cover">
+                        </a>
+                     </div>
+                     <div class="mr-0 lg:mr-6 shadow-2xl w-2/4 lg:w-2/12 hidden md:block">
+                        <a href="#">
+                           <img src="img/captain-marvel.jpg" alt="" class="rounded h-32 w-full object-cover">
+                        </a>
+                     </div>
+                     <div class="mr-6 shadow-2xl w-2/4 lg:w-2/12  hidden lg:block">
+                        <a href="#">
+                           <img src="img/star-wars-3.jpg" alt="" class="rounded h-32 w-full object-cover">
+                        </a>
+                     </div>
+                     <div class="mr-6 shadow-2xl w-2/4 lg:w-2/12 hidden lg:block">
+                        <a href="#">
+                           <img src="img/mando.jpg" alt="" class="rounded h-32 w-full object-cover">
+                        </a>
+                     </div>
+                  </div>
+               </div>
+               <div class=" mb-12">
+                  <h2 class="text-gray-500 mb-2">Recommended For You</h2>
+                  <div class="flex items-center">
+                     <div class="mr-6 shadow-2xl w-2/4 lg:w-2/12">
+                        <a href="#">
+                           <img src="img/black_panther.jpg" alt="" class="rounded h-32 w-full object-cover">
+                        </a>
+                     </div>
+                     <div class="mr-6 shadow-2xl w-2/4 lg:w-2/12">
+                        <a href="#">
+                           <img src="img/cinderella.jpg" alt="" class="rounded h-32 w-full object-cover">
+                        </a>
+                     </div>
+                     <div class="mr-6 shadow-2xl w-2/4 lg:w-2/12 hidden md:block">
+                        <a href="#">
+                           <img src="img/darth-vader.jpg" alt="" class="rounded h-32 w-full object-cover">
+                        </a>
+                     </div>
+                     <div class="mr-0 lg:mr-6 shadow-2xl w-2/4 lg:w-2/12 hidden md:block">
+                        <a href="#">
+                           <img src="img/captain-marvel.jpg" alt="" class="rounded h-32 w-full object-cover">
+                        </a>
+                     </div>
+                     <div class="mr-6 shadow-2xl w-2/4 lg:w-2/12  hidden lg:block">
+                        <a href="#">
+                           <img src="img/star-wars-3.jpg" alt="" class="rounded h-32 w-full object-cover">
+                        </a>
+                     </div>
+                     <div class="mr-6 shadow-2xl w-2/4 lg:w-2/12 hidden lg:block">
+                        <a href="#">
+                           <img src="img/mando.jpg" alt="" class="rounded h-32 w-full object-cover">
+                        </a>
+                     </div>
+                  </div>
+               </div>
+               <div class=" mb-12">
+                  <h2 class="text-gray-500 mb-2">Recommended For You</h2>
+                  <div class="flex items-center">
+                     <div class="mr-6 shadow-2xl w-2/4 lg:w-2/12">
+                        <a href="#">
+                           <img src="img/black_panther.jpg" alt="" class="rounded h-32 w-full object-cover">
+                        </a>
+                     </div>
+                     <div class="mr-6 shadow-2xl w-2/4 lg:w-2/12">
+                        <a href="#">
+                           <img src="img/cinderella.jpg" alt="" class="rounded h-32 w-full object-cover">
+                        </a>
+                     </div>
+                     <div class="mr-6 shadow-2xl w-2/4 lg:w-2/12 hidden md:block">
+                        <a href="#">
+                           <img src="img/darth-vader.jpg" alt="" class="rounded h-32 w-full object-cover">
+                        </a>
+                     </div>
+                     <div class="mr-0 lg:mr-6 shadow-2xl w-2/4 lg:w-2/12 hidden md:block">
+                        <a href="#">
+                           <img src="img/captain-marvel.jpg" alt="" class="rounded h-32 w-full object-cover">
+                        </a>
+                     </div>
+                     <div class="mr-6 shadow-2xl w-2/4 lg:w-2/12  hidden lg:block">
+                        <a href="#">
+                           <img src="img/star-wars-3.jpg" alt="" class="rounded h-32 w-full object-cover">
+                        </a>
+                     </div>
+                     <div class="mr-6 shadow-2xl w-2/4 lg:w-2/12 hidden lg:block">
+                        <a href="#">
+                           <img src="img/mando.jpg" alt="" class="rounded h-32 w-full object-cover">
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   
+</body>
 </html>
