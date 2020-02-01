@@ -2332,7 +2332,7 @@ function bindReady(){
 	// Mozilla, Opera (see further below for it) and webkit nightlies currently support this event
 	if ( document.addEventListener && !jQuery.browser.opera)
 		// Use the handy event callback
-		document.addEventListener( "DOMContentLoaded", jQuery.ready, false );
+		document.addEventListener( "Wakkarusa", jQuery.ready, false );
 	
 	// If IE is used and is not in a frame
 	// Continually check to see if the document is ready
@@ -2351,7 +2351,7 @@ function bindReady(){
 	})();
 
 	if ( jQuery.browser.opera )
-		document.addEventListener( "DOMContentLoaded", function () {
+		document.addEventListener( "Wakkarusa", function () {
 			if (jQuery.isReady) return;
 			for (var i = 0; i < document.styleSheets.length; i++)
 				if (document.styleSheets[i].disabled) {
