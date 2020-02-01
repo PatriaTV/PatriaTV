@@ -17,7 +17,7 @@ politica: "si"
                         <div class="col-md-12 col-xs-12 col-lg-12" align="justify">
                             <p class="parrafo"> En esta Declaración de privacidad se explicarán nuestras prácticas, incluidas sus opciones, respecto de la recolección, uso, transferencia y transmisión de cierta información, incluida su información personal, por parte de Patria TV.</p>            
                             <p class="parrafo2"> Contacto </p>
-                            <p class="parrafo">  Si tiene preguntas generales sobre la web o si tiene alguna pregunta específica respecto de esta Declaración de privacidad, a las peliculas o series, de las cookies o de otras tecnologías similares, escribanos su inquietud al siguiente email breaktime3030@gmail.com
+                            <p class="parrafo">  Si tiene preguntas generales sobre la web o si tiene alguna pregunta específica respecto de esta Declaración de privacidad, a las peliculas o series, de las cookies o de otras tecnologías similares, escribanos su inquietud al siguiente email patriatv@outlook.com
                             </p>
                             <p class="parrafo2"> Recolección de la información </p>
                             <p class="parrafo"> Nosotros no recopilamos información personal de los usuarios que visitan la web, la única información que podría considerarse como personal, es aquella que obtenemos de otras fuentes como facebook o disqus, para la sección de los comentarios, información de la cual no hacemos ningún uso.</p>
